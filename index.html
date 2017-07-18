@@ -2,20 +2,87 @@
 <!--
 Ramon Horst
 Entry Level Web Developer
-ramon0598@gmail.com
+ramon@webdevpro.nl
 2017-06-14
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	  <title>NieuwsBlog WebDevPro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Ramon Horst">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>NieuwsBlog WebDevPro</title>
-  <meta name="keywords" content="Nieuws, blog, webdevpro, ramon horst" />
-  <meta name="description" content="WebDevPro Ramon Horst NieuwsBlog" />
-  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-  <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="keywords" content="Nieuws, blog, webdevpro, ramon horst"/>
+  <meta name="description" content="WebDevPro Ramon Horst NieuwsBlog"/>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+			<script type="text/javascript" src="jquery/bower_components/jquery-1.9.1.min/index.js"></script>
+			<script type="text/javascript" src="FeedEk/js/FeedEk.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script> -->
+
 </head>
 
 <body>
+
+  <div id="background"></div>
+
+	<div class="feedWrapper">
+		  <div class="feedLogo">
+				<img src="img/telegraafLogo.png"></img>
+			</div>
+			<div class="feedHead">
+			</div>
+		  <div id="telegraaf">
+		    <script src="feeds/telegraaf.js"></script>
+		  </div>
+	</div>
+
+	<div class="feedWrapper">
+		  <div class="feedLogo">
+				<img src="img/tech.png"></img>
+			</div>
+			<div class="feedHead">
+			</div>
+		  <div id="techNieuws">
+		    <script src="feeds/techNieuws.js"></script>
+		  </div>
+	</div>
+
+	<div class="feedWrapper">
+		  <div class="feedLogo">
+				<img src="img/ad-logo.png"></img>
+			</div>
+			<div class="feedHead">
+			</div>
+		  <div id="algemeenDagblad">
+		    <script src="feeds/algemeenDagblad.js"></script>
+		  </div>
+	</div>
+
+	<div class="feedWrapper">
+		  <div class="feedLogo">
+				<img src="img/teleSport.png"></img>
+			</div>
+			<div class="feedHead">
+			</div>
+		  <div id="teleSport">
+		    <script src="feeds/teleSport.js"></script>
+		  </div>
+	</div>
+
+	<div class="feedWrapper">
+			<div class="feedLogo">
+				<img src="img/finDagblad.png"></img>
+			</div>
+			<div class="feedHead">
+			</div>
+			<div id="finDagblad">
+				<script src="feeds/finDagblad.js"></script>
+			</div>
+	</div>
+
+
+
+
+
 
 </body>
