@@ -26,22 +26,16 @@ body {
   min-height: 100vh;
 }
 
-.bolAdvLeft {
-  display: inline-block;
-  margin: 0 auto;
-  width: 40vw;
-}
-
-.bolAdvRight {
-  display: inline-block;
-  margin: 0 auto;
-  width: 40vw;
-  float: right;
-}
-
 .feedWrapper a {
   color: #000;
   font-weight: bold;
+}
+
+.feedWrapper img {
+  max-width: 260px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .feedWrapper a:hover {
