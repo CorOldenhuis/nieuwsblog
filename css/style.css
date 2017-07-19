@@ -22,7 +22,34 @@ body {
   display: inline-table;
   max-width: 300px;
   max-height: 75px;
+  min-width: 300px;
+  min-height: 100vh;
 }
+
+.bolAdvLeft {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.bolAdvRight {
+  display: inline-block;
+  margin: 0 auto;
+  width: 40vw;
+  float: right;
+}
+
+.feedWrapper a {
+  color: #000;
+  font-weight: bold;
+}
+
+.feedWrapper a:hover {
+  color: #CC0000;
+  text-decoration: none;
+  text-shadow: 0.3px 0.3px #000;
+}
+
 
 .feedLogo {
   max-width: 300px;
@@ -45,4 +72,8 @@ body {
 ul.feedEkList {
   max-width: 300px;
   list-style-type: none;
+}
+
+#nieuwsPaal img {
+  display: none;
 }
