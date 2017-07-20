@@ -71,3 +71,13 @@ ul.feedEkList {
 #nieuwsPaal img {
   display: none;
 }
+
+.twitter-timeline {
+  max-width: 300px;
+  max-height: 100vh;
+  display: block;
+}
+
+.timeline-InformationCircle-widgetParent {
+  margin-top: 3vh;
+}
